@@ -661,8 +661,6 @@ public:
                 case BOSS_SAPPHIRON:
                     if (state == DONE)
                     {
-                        LOG_NOTICE("server", "> BOSS_SAPPHIRON - DONE");
-
                         _speakTimer = 1;
                         // Load KT's grid so he can talk
                         instance->LoadGrid(3763.43f, -5115.87f);
